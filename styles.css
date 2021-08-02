@@ -83,7 +83,7 @@ input{
     margin-left: 10px;
     border-style: hidden;
     height: 45px;
-    width: 480px;
+    width: 485px;
     font-size: medium;
 }
 input:focus{
@@ -107,7 +107,7 @@ input:focus{
 .button:hover{
     border: 1px solid #c8c8c8;
     padding: 9px 19px;
-    color:#808080;
+    color:black;
 }
 .button:focus{
     border:1px solid #4885ed;
@@ -124,5 +124,32 @@ input:focus{
 }
 
 .footer{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    height: 28px;
+    color:#0000008A;
+    background-color: #f2f2f2;
+    border-bottom: solid #dadce0 1px;
+}
+.footer a{
+    margin-right: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    color:#70757A;
+}
 
+.footer-left{
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
