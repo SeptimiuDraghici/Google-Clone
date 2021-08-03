@@ -59,10 +59,10 @@ body{
 }
 
 .search-bar{
-    margin:0 auto;
-    width:575px;
-    border-radius:30px;
-    border:1px solid #dcdcdc;
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -72,9 +72,10 @@ body{
   }
 .search-bar:focus-within{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline:none;
+    outline: none;
 }
 .search-bar img{
+    margin-right: 15px;
     margin-left: 15px;
     width: 15px;
 }
@@ -152,4 +153,17 @@ input:focus{
     display: flex;
     align-items: center;
     margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar{
+        width: 370px;
+    }
+    .input{
+        width: 280px;
+    }
+    .footer{
+        flex-direction: column;
+        height: fit-content;
+    }
 }
